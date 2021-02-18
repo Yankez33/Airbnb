@@ -1,0 +1,287 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  border: 2px solid #ffe8e8;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #f5f4f4;
+}
+
+
+/* ---------------- Container ----------------------------- */
+.article {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.row {
+  margin-right: -12px;
+  margin-left: -12px;
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    max-width: 1080px;
+  }
+}
+
+/* ----- dropdown menu ------ */
+@media (max-width: 975px) {
+  #navbarDropdown {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    line-height: 1.7;
+    overflow: auto;
+    padding: 20px 0;
+    z-index: 1;
+    cursor: default;
+    max-width: 25%;
+  }
+
+  .menu_item {
+    display: block;
+    color: #484848;
+    text-align: center;
+    background-color: #ebebeb;
+  }
+}
+
+.menu_search {
+  margin-top: 8px;
+  margin-right: 40px;
+}
+
+
+/* ----------------- Navbar--------------- */
+.logo_header {
+  position: relative;
+  height: 76px;
+  padding: 0 32px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.logo {
+  height: 43px;
+  width: 40px;
+  margin-left: 75px;
+  background-image: url(./images/logo.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 42px auto;
+  vertical-align: middle;
+}
+
+.logo_text {
+  font-size: 25px;
+  line-height: 1.375;
+  margin-right: 100px;
+  margin-top: 4px;
+  color: #484848;
+  vertical-align: middle;
+}
+
+.logo_text:hover {
+  text-decoration: none;
+  color:#484848;
+}
+
+h2 {
+  margin-top: 24px;
+  margin-bottom: 36px;
+}
+
+.navbar-toggler {
+  font-size: 16px;
+}
+
+.nav_menu {
+  padding: 12px 0;
+  margin:0 40px;
+  color: #484848;
+  font-size: 16px;
+}
+
+.menu_item {
+  display: block;
+  color: #1e212d;
+  padding: 6px;
+  background-color: #f5f4f4;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.menu_item:hover {
+  text-decoration: none;
+  color: #1e212d;
+  background-color: #d3e0dc;
+}
+
+
+.menu_text {
+  padding-top: 5px;
+  margin-right: 30px;
+}
+
+.search-text {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+}
+
+
+
+/* ------------ section one------------------ */
+@media (min-width: 697px) {
+  .section_one {
+    margin-bottom: 64px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 696.98px) {
+  .section_one {
+      margin-bottom: 32px;}
+  }
+
+
+.section_one {
+  margin-top: 24px;
+}
+
+h6 {
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.section_one_title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.375;
+  margin-top: -20px;
+  margin-bottom: 32px;
+  color: #484848;
+}
+
+.section_one_title:hover {
+  color:#484848;
+}
+
+.article_summary {
+  font-size: 18px;
+  line-height: 1.66667;
+  color: #484848;
+}
+
+/* ---- section two & three ------- */
+@media (min-width: 697px) {
+  .second_section, .third_section {
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 64px;
+    padding-top: 15px;
+    border-top: 1px solid #ebebeb;
+  }
+
+  .left_article, .center_article {
+    border-right: 1px solid #ebebeb;
+  } 
+} 
+
+@media (max-width: 696.98px) {
+  .second_section, .third_section {
+    margin-bottom: 32px;
+  }
+
+  .left_article, .center_article, .right_article {
+    padding-top: 5px;
+    border-top: 1px solid #ebebeb;
+  }
+}
+
+.article_title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #484848;
+}
+
+.article_title:hover {
+  color:#484848;
+}
+
+.section_date {
+  padding-top: 10px;
+}
+
+
+/* ------------ footer ------------- */
+.footer_one, .footer_two {
+  border-top: 1px solid rgb(235, 235, 235);
+  margin-top: 20px;
+  margin-bottom: 48px;
+  padding-top: 24px;
+}
+
+ h5 {
+  font-size: 14px;
+}
+
+ @media (max-width: 697px) {
+  .disclaimer, .copyright {
+    font-size: 8px;
+  }
+} 
+
+@media (max-width: 697px) {
+  .footer_list {
+    font-size: 8px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+} 
+
+@media (min-width: 697px) {
+  .footer_list {
+    font-size: 12px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .disclaimer {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0;
+  }
+}
+
+.copyright {
+  font-size: 12px;
+  vertical-align: middle;
+  padding:0;
+}
+
+.logo_socialmedia {
+  text-align: right;
+}
+
+.footer_legal {
+  vertical-align: middle;
+  font-size: 12px;
+  text-align: center;
+}
+
+.social_media {
+  font-size: 12px;
+  font-weight: 600;
+  vertical-align: middle;
+}
